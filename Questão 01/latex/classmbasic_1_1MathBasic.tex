@@ -1,0 +1,104 @@
+\hypertarget{classmbasic_1_1MathBasic}{\section{mbasic\-:\-:Math\-Basic Class Reference}
+\label{classmbasic_1_1MathBasic}\index{mbasic\-::\-Math\-Basic@{mbasic\-::\-Math\-Basic}}
+}
+
+
+{\ttfamily \#include $<$Math\-Basic.\-h$>$}
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classmbasic_1_1MathBasic_a0c8d1d4bdfb2490818b7350f3cd947fa}{Add} (int n1, int n2)
+\begin{DoxyCompactList}\small\item\em Método estático de adição que retorna a soma de dois inteiros. \end{DoxyCompactList}\item 
+static int \hyperlink{classmbasic_1_1MathBasic_a74ab16017f20077b28738552df0b1bae}{Dif} (int n1, int n2)
+\begin{DoxyCompactList}\small\item\em Método estático de subtração que retorna a diferença entre dois inteiros. \end{DoxyCompactList}\item 
+static int \hyperlink{classmbasic_1_1MathBasic_a6554a2cc7705aedfd1572a424a139e13}{Mux} (int n1, int n2)
+\begin{DoxyCompactList}\small\item\em Método estático de multiplicação que retorna o produto entre dois inteiros. \end{DoxyCompactList}\item 
+static int \hyperlink{classmbasic_1_1MathBasic_ab4aae23139bd3f1997cf298524cf15b4}{Div} (int n1, int n2)
+\begin{DoxyCompactList}\small\item\em Método estático de divisão que retorna uma divisão inteira entre dois inteiros. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classmbasic_1_1MathBasic_a0c8d1d4bdfb2490818b7350f3cd947fa}{\index{mbasic\-::\-Math\-Basic@{mbasic\-::\-Math\-Basic}!Add@{Add}}
+\index{Add@{Add}!mbasic::MathBasic@{mbasic\-::\-Math\-Basic}}
+\subsubsection[{Add}]{\setlength{\rightskip}{0pt plus 5cm}int mbasic\-::\-Math\-Basic\-::\-Add (
+\begin{DoxyParamCaption}
+\item[{int}]{n1, }
+\item[{int}]{n2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmbasic_1_1MathBasic_a0c8d1d4bdfb2490818b7350f3cd947fa}
+
+
+Método estático de adição que retorna a soma de dois inteiros. 
+
+
+\begin{DoxyCode}
+8     \{
+9         \textcolor{keywordflow}{return} n1 + n2;
+10     \}
+\end{DoxyCode}
+\hypertarget{classmbasic_1_1MathBasic_a74ab16017f20077b28738552df0b1bae}{\index{mbasic\-::\-Math\-Basic@{mbasic\-::\-Math\-Basic}!Dif@{Dif}}
+\index{Dif@{Dif}!mbasic::MathBasic@{mbasic\-::\-Math\-Basic}}
+\subsubsection[{Dif}]{\setlength{\rightskip}{0pt plus 5cm}int mbasic\-::\-Math\-Basic\-::\-Dif (
+\begin{DoxyParamCaption}
+\item[{int}]{n1, }
+\item[{int}]{n2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmbasic_1_1MathBasic_a74ab16017f20077b28738552df0b1bae}
+
+
+Método estático de subtração que retorna a diferença entre dois inteiros. 
+
+
+\begin{DoxyCode}
+14     \{
+15         \textcolor{keywordflow}{return} n1 - n2;
+16     \}
+\end{DoxyCode}
+\hypertarget{classmbasic_1_1MathBasic_ab4aae23139bd3f1997cf298524cf15b4}{\index{mbasic\-::\-Math\-Basic@{mbasic\-::\-Math\-Basic}!Div@{Div}}
+\index{Div@{Div}!mbasic::MathBasic@{mbasic\-::\-Math\-Basic}}
+\subsubsection[{Div}]{\setlength{\rightskip}{0pt plus 5cm}int mbasic\-::\-Math\-Basic\-::\-Div (
+\begin{DoxyParamCaption}
+\item[{int}]{n1, }
+\item[{int}]{n2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmbasic_1_1MathBasic_ab4aae23139bd3f1997cf298524cf15b4}
+
+
+Método estático de divisão que retorna uma divisão inteira entre dois inteiros. 
+
+
+\begin{DoxyCode}
+26     \{
+27         \textcolor{keywordflow}{if}(n2 == 0)
+28         \{
+29             std::cout << \textcolor{stringliteral}{"0 é inválido como denominador..."} << std::endl;
+30             \textcolor{keywordflow}{return} 0;
+31         \}
+32         \textcolor{keywordflow}{return} n1 / n2;
+33     \}
+\end{DoxyCode}
+\hypertarget{classmbasic_1_1MathBasic_a6554a2cc7705aedfd1572a424a139e13}{\index{mbasic\-::\-Math\-Basic@{mbasic\-::\-Math\-Basic}!Mux@{Mux}}
+\index{Mux@{Mux}!mbasic::MathBasic@{mbasic\-::\-Math\-Basic}}
+\subsubsection[{Mux}]{\setlength{\rightskip}{0pt plus 5cm}int mbasic\-::\-Math\-Basic\-::\-Mux (
+\begin{DoxyParamCaption}
+\item[{int}]{n1, }
+\item[{int}]{n2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmbasic_1_1MathBasic_a6554a2cc7705aedfd1572a424a139e13}
+
+
+Método estático de multiplicação que retorna o produto entre dois inteiros. 
+
+
+\begin{DoxyCode}
+20     \{
+21         \textcolor{keywordflow}{return} n1 * n2;
+22     \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{MathBasic_8h}{Math\-Basic.\-h}\item 
+src/\hyperlink{MathBasic_8cpp}{Math\-Basic.\-cpp}\end{DoxyCompactItemize}
