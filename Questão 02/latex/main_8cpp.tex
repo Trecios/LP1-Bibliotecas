@@ -1,0 +1,53 @@
+\hypertarget{main_8cpp}{}\section{src/main.cpp File Reference}
+\label{main_8cpp}\index{src/main.\+cpp@{src/main.\+cpp}}
+
+
+Programa para resolver a questão 2 do Laboratório 6 de L\+P1.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include \char`\"{}produto.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}movimentacao.\+h\char`\"{}}\newline
+Include dependency graph for main.\+cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{main_8cpp_abf9e6b7e6f15df4b525a2e7705ba3089}{main} (int argc, char const $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Programa para resolver a questão 2 do Laboratório 6 de L\+P1. 
+
+\begin{DoxyAuthor}{Author}
+Ailton Gabriel Figueira Dantas Ramos da Silva 
+
+Felipe Douglas Cavalcante Marinho de Vasconcelos 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+14/05/2018 
+\end{DoxySince}
+\begin{DoxyDate}{Date}
+19/05/2018 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_abf9e6b7e6f15df4b525a2e7705ba3089}\label{main_8cpp_abf9e6b7e6f15df4b525a2e7705ba3089}} 
+\index{main.\+cpp@{main.\+cpp}!main@{main}}
+\index{main@{main}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char const $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyCode}
+21 \{
+22     \hyperlink{classproduto_1_1Produto}{Produto} fruta(\textcolor{stringliteral}{"001"}, \textcolor{stringliteral}{"Maça"}, 1.35);
+23     \hyperlink{classproduto_1_1Produto}{Produto} cerveja(\textcolor{stringliteral}{"002"}, \textcolor{stringliteral}{"Cerveja Schin"}, 2.50);
+24     \hyperlink{classmovimento_1_1Movimentacao}{Movimentacao} compra(\textcolor{stringliteral}{"Compras no mercadinho"}, fruta+cerveja, 0);
+25     cout << compra;
+26 \}
+\end{DoxyCode}

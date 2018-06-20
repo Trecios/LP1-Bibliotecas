@@ -1,0 +1,250 @@
+\hypertarget{classproduto_1_1Produto}{}\section{produto\+:\+:Produto Class Reference}
+\label{classproduto_1_1Produto}\index{produto\+::\+Produto@{produto\+::\+Produto}}
+
+
+{\ttfamily \#include $<$produto.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classproduto_1_1Produto_ac3d96768b8b6b67ae8066b704761071a}{Produto} ()
+\begin{DoxyCompactList}\small\item\em Construtor, construtor parametrizado e destrutor. \end{DoxyCompactList}\item 
+\hyperlink{classproduto_1_1Produto_a8e9da9e547e4bb92539dd4687451cf09}{Produto} (std\+::string \+\_\+codigo, std\+::string \+\_\+descricao, double \+\_\+preco)
+\item 
+virtual \hyperlink{classproduto_1_1Produto_a14eeea10c0112fafaf5cb5a24ce028b8}{$\sim$\+Produto} ()
+\item 
+std\+::string \hyperlink{classproduto_1_1Produto_a6dbe3ecb8ff8b7b72a18ac70d52db292}{get\+Cod\+Barras} ()
+\begin{DoxyCompactList}\small\item\em Retorna o código de barras do produto. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classproduto_1_1Produto_a670047a018e413208f6a7ee37fef6ce0}{get\+Descricao} ()
+\begin{DoxyCompactList}\small\item\em Retorna a descrição do produto. \end{DoxyCompactList}\item 
+double \hyperlink{classproduto_1_1Produto_ac316d4a9e294ba556de0ce7860b7f8cf}{get\+Preco} ()
+\begin{DoxyCompactList}\small\item\em Retorna o preço do produto. \end{DoxyCompactList}\item 
+void \hyperlink{classproduto_1_1Produto_a23abca118c602f8e004800ae0c3764f0}{set\+Cod\+Barras} (std\+::string \+\_\+codigo)
+\begin{DoxyCompactList}\small\item\em Muda o código de barras do produto. \end{DoxyCompactList}\item 
+void \hyperlink{classproduto_1_1Produto_ad4398a2c1dbc54dc2b164df3b2798dc8}{set\+Descricao} (std\+::string \+\_\+descricao)
+\begin{DoxyCompactList}\small\item\em Muda a descrição do produto. \end{DoxyCompactList}\item 
+void \hyperlink{classproduto_1_1Produto_ac2b62968f13523baabc910e0ca10a412}{set\+Preco} (double \+\_\+preco)
+\begin{DoxyCompactList}\small\item\em Muda o preço do produto. \end{DoxyCompactList}\item 
+double \hyperlink{classproduto_1_1Produto_a533fce73a66e09411c27ba8a71d985ef}{operator+} (\hyperlink{classproduto_1_1Produto}{Produto} \&P)
+\begin{DoxyCompactList}\small\item\em Sobrecarga dos operadores. \end{DoxyCompactList}\item 
+double \hyperlink{classproduto_1_1Produto_aa9bd99956208c019f714a4ed53d6986c}{operator-\/} (\hyperlink{classproduto_1_1Produto}{Produto} \&P)
+\item 
+bool \hyperlink{classproduto_1_1Produto_af2cb621ae73fbd2369dec3070b2c5ac3}{operator==} (\hyperlink{classproduto_1_1Produto}{Produto} \&P)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \hyperlink{classproduto_1_1Produto_af441e885b23e4b6782be22c0be25ba72}{m\+\_\+cod\+\_\+barras}
+\item 
+std\+::string \hyperlink{classproduto_1_1Produto_a17af898b167c20f905f3d2d16f7aeac0}{m\+\_\+descricao}
+\item 
+double \hyperlink{classproduto_1_1Produto_aaa3f0f133345202eafcb2fa72248e05d}{m\+\_\+preco}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classproduto_1_1Produto_ac3d96768b8b6b67ae8066b704761071a}\label{classproduto_1_1Produto_ac3d96768b8b6b67ae8066b704761071a}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!Produto@{Produto}}
+\index{Produto@{Produto}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{Produto()}{Produto()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily produto\+::\+Produto\+::\+Produto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construtor, construtor parametrizado e destrutor. 
+
+
+\begin{DoxyCode}
+7 \{\}
+\end{DoxyCode}
+\mbox{\Hypertarget{classproduto_1_1Produto_a8e9da9e547e4bb92539dd4687451cf09}\label{classproduto_1_1Produto_a8e9da9e547e4bb92539dd4687451cf09}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!Produto@{Produto}}
+\index{Produto@{Produto}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{Produto()}{Produto()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily produto\+::\+Produto\+::\+Produto (\begin{DoxyParamCaption}\item[{std\+::string}]{\+\_\+codigo,  }\item[{std\+::string}]{\+\_\+descricao,  }\item[{double}]{\+\_\+preco }\end{DoxyParamCaption})}
+
+
+\begin{DoxyCode}
+11                                                                           :
+12         \hyperlink{classproduto_1_1Produto_af441e885b23e4b6782be22c0be25ba72}{m\_cod\_barras}(\_codigo), \hyperlink{classproduto_1_1Produto_a17af898b167c20f905f3d2d16f7aeac0}{m\_descricao}(\_descricao), 
+      \hyperlink{classproduto_1_1Produto_aaa3f0f133345202eafcb2fa72248e05d}{m\_preco}(\_preco) \{\}
+\end{DoxyCode}
+\mbox{\Hypertarget{classproduto_1_1Produto_a14eeea10c0112fafaf5cb5a24ce028b8}\label{classproduto_1_1Produto_a14eeea10c0112fafaf5cb5a24ce028b8}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!````~Produto@{$\sim$\+Produto}}
+\index{````~Produto@{$\sim$\+Produto}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{$\sim$\+Produto()}{~Produto()}}
+{\footnotesize\ttfamily produto\+::\+Produto\+::$\sim$\+Produto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyCode}
+9 \{\}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classproduto_1_1Produto_a6dbe3ecb8ff8b7b72a18ac70d52db292}\label{classproduto_1_1Produto_a6dbe3ecb8ff8b7b72a18ac70d52db292}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!get\+Cod\+Barras@{get\+Cod\+Barras}}
+\index{get\+Cod\+Barras@{get\+Cod\+Barras}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{get\+Cod\+Barras()}{getCodBarras()}}
+{\footnotesize\ttfamily std\+::string produto\+::\+Produto\+::get\+Cod\+Barras (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retorna o código de barras do produto. 
+
+
+\begin{DoxyCode}
+15                           \{
+16         \textcolor{keywordflow}{return} \hyperlink{classproduto_1_1Produto_af441e885b23e4b6782be22c0be25ba72}{m\_cod\_barras};
+17     \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classproduto_1_1Produto_a670047a018e413208f6a7ee37fef6ce0}\label{classproduto_1_1Produto_a670047a018e413208f6a7ee37fef6ce0}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!get\+Descricao@{get\+Descricao}}
+\index{get\+Descricao@{get\+Descricao}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{get\+Descricao()}{getDescricao()}}
+{\footnotesize\ttfamily std\+::string produto\+::\+Produto\+::get\+Descricao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retorna a descrição do produto. 
+
+
+\begin{DoxyCode}
+20                           \{
+21         \textcolor{keywordflow}{return} \hyperlink{classproduto_1_1Produto_a17af898b167c20f905f3d2d16f7aeac0}{m\_descricao};
+22     \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classproduto_1_1Produto_ac316d4a9e294ba556de0ce7860b7f8cf}\label{classproduto_1_1Produto_ac316d4a9e294ba556de0ce7860b7f8cf}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!get\+Preco@{get\+Preco}}
+\index{get\+Preco@{get\+Preco}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{get\+Preco()}{getPreco()}}
+{\footnotesize\ttfamily double produto\+::\+Produto\+::get\+Preco (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retorna o preço do produto. 
+
+
+\begin{DoxyCode}
+25                       \{
+26         \textcolor{keywordflow}{return} \hyperlink{classproduto_1_1Produto_aaa3f0f133345202eafcb2fa72248e05d}{m\_preco};
+27     \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classproduto_1_1Produto_a533fce73a66e09411c27ba8a71d985ef}\label{classproduto_1_1Produto_a533fce73a66e09411c27ba8a71d985ef}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!operator+@{operator+}}
+\index{operator+@{operator+}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily double produto\+::\+Produto\+::operator+ (\begin{DoxyParamCaption}\item[{\hyperlink{classproduto_1_1Produto}{Produto} \&}]{P }\end{DoxyParamCaption})}
+
+
+
+Sobrecarga dos operadores. 
+
+
+\begin{DoxyCode}
+46     \{
+47         \hyperlink{classproduto_1_1Produto_aaa3f0f133345202eafcb2fa72248e05d}{m\_preco} += P.m\_preco;
+48         \textcolor{keywordflow}{return} \hyperlink{classproduto_1_1Produto_aaa3f0f133345202eafcb2fa72248e05d}{m\_preco};
+49     \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classproduto_1_1Produto_aa9bd99956208c019f714a4ed53d6986c}\label{classproduto_1_1Produto_aa9bd99956208c019f714a4ed53d6986c}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily double produto\+::\+Produto\+::operator-\/ (\begin{DoxyParamCaption}\item[{\hyperlink{classproduto_1_1Produto}{Produto} \&}]{P }\end{DoxyParamCaption})}
+
+
+\begin{DoxyCode}
+53     \{
+54         \hyperlink{classproduto_1_1Produto_aaa3f0f133345202eafcb2fa72248e05d}{m\_preco} -= P.m\_preco;
+55         \textcolor{keywordflow}{return} \hyperlink{classproduto_1_1Produto_aaa3f0f133345202eafcb2fa72248e05d}{m\_preco};
+56     \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classproduto_1_1Produto_af2cb621ae73fbd2369dec3070b2c5ac3}\label{classproduto_1_1Produto_af2cb621ae73fbd2369dec3070b2c5ac3}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!operator==@{operator==}}
+\index{operator==@{operator==}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool produto\+::\+Produto\+::operator== (\begin{DoxyParamCaption}\item[{\hyperlink{classproduto_1_1Produto}{Produto} \&}]{P }\end{DoxyParamCaption})}
+
+
+\begin{DoxyCode}
+60     \{
+61         \textcolor{keywordtype}{bool} igual = (\hyperlink{classproduto_1_1Produto_af441e885b23e4b6782be22c0be25ba72}{m\_cod\_barras} == P.m\_cod\_barras);
+62         \textcolor{keywordflow}{return} igual;
+63     \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classproduto_1_1Produto_a23abca118c602f8e004800ae0c3764f0}\label{classproduto_1_1Produto_a23abca118c602f8e004800ae0c3764f0}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!set\+Cod\+Barras@{set\+Cod\+Barras}}
+\index{set\+Cod\+Barras@{set\+Cod\+Barras}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{set\+Cod\+Barras()}{setCodBarras()}}
+{\footnotesize\ttfamily void produto\+::\+Produto\+::set\+Cod\+Barras (\begin{DoxyParamCaption}\item[{std\+::string}]{\+\_\+codigo }\end{DoxyParamCaption})}
+
+
+
+Muda o código de barras do produto. 
+
+
+\begin{DoxyCode}
+30                                            \{
+31         \hyperlink{classproduto_1_1Produto_af441e885b23e4b6782be22c0be25ba72}{m\_cod\_barras} = \_codigo;
+32     \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classproduto_1_1Produto_ad4398a2c1dbc54dc2b164df3b2798dc8}\label{classproduto_1_1Produto_ad4398a2c1dbc54dc2b164df3b2798dc8}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!set\+Descricao@{set\+Descricao}}
+\index{set\+Descricao@{set\+Descricao}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{set\+Descricao()}{setDescricao()}}
+{\footnotesize\ttfamily void produto\+::\+Produto\+::set\+Descricao (\begin{DoxyParamCaption}\item[{std\+::string}]{\+\_\+descricao }\end{DoxyParamCaption})}
+
+
+
+Muda a descrição do produto. 
+
+
+\begin{DoxyCode}
+35                                               \{
+36         \hyperlink{classproduto_1_1Produto_a17af898b167c20f905f3d2d16f7aeac0}{m\_descricao} = \_descricao;
+37     \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classproduto_1_1Produto_ac2b62968f13523baabc910e0ca10a412}\label{classproduto_1_1Produto_ac2b62968f13523baabc910e0ca10a412}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!set\+Preco@{set\+Preco}}
+\index{set\+Preco@{set\+Preco}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{set\+Preco()}{setPreco()}}
+{\footnotesize\ttfamily void produto\+::\+Produto\+::set\+Preco (\begin{DoxyParamCaption}\item[{double}]{\+\_\+preco }\end{DoxyParamCaption})}
+
+
+
+Muda o preço do produto. 
+
+
+\begin{DoxyCode}
+40                                    \{
+41         \hyperlink{classproduto_1_1Produto_aaa3f0f133345202eafcb2fa72248e05d}{m\_preco} = \_preco;
+42     \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classproduto_1_1Produto_af441e885b23e4b6782be22c0be25ba72}\label{classproduto_1_1Produto_af441e885b23e4b6782be22c0be25ba72}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!m\+\_\+cod\+\_\+barras@{m\+\_\+cod\+\_\+barras}}
+\index{m\+\_\+cod\+\_\+barras@{m\+\_\+cod\+\_\+barras}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{m\+\_\+cod\+\_\+barras}{m\_cod\_barras}}
+{\footnotesize\ttfamily std\+::string produto\+::\+Produto\+::m\+\_\+cod\+\_\+barras\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classproduto_1_1Produto_a17af898b167c20f905f3d2d16f7aeac0}\label{classproduto_1_1Produto_a17af898b167c20f905f3d2d16f7aeac0}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!m\+\_\+descricao@{m\+\_\+descricao}}
+\index{m\+\_\+descricao@{m\+\_\+descricao}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{m\+\_\+descricao}{m\_descricao}}
+{\footnotesize\ttfamily std\+::string produto\+::\+Produto\+::m\+\_\+descricao\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classproduto_1_1Produto_aaa3f0f133345202eafcb2fa72248e05d}\label{classproduto_1_1Produto_aaa3f0f133345202eafcb2fa72248e05d}} 
+\index{produto\+::\+Produto@{produto\+::\+Produto}!m\+\_\+preco@{m\+\_\+preco}}
+\index{m\+\_\+preco@{m\+\_\+preco}!produto\+::\+Produto@{produto\+::\+Produto}}
+\subsubsection{\texorpdfstring{m\+\_\+preco}{m\_preco}}
+{\footnotesize\ttfamily double produto\+::\+Produto\+::m\+\_\+preco\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{produto_8h}{produto.\+h}\item 
+src/\hyperlink{produto_8cpp}{produto.\+cpp}\end{DoxyCompactItemize}

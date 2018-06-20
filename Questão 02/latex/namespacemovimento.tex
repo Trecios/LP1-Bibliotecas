@@ -1,0 +1,38 @@
+\hypertarget{namespacemovimento}{}\section{movimento Namespace Reference}
+\label{namespacemovimento}\index{movimento@{movimento}}
+
+
+Interfaçe da classe \hyperlink{classmovimento_1_1Movimentacao}{Movimentacao}.  
+
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classmovimento_1_1Movimentacao}{Movimentacao}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \hyperlink{namespacemovimento_aeb6b028fe2ad0167ba59b47ceea8a5b5}{operator$<$$<$} (ostream \&o, \hyperlink{classmovimento_1_1Movimentacao}{Movimentacao} const m)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interfaçe da classe \hyperlink{classmovimento_1_1Movimentacao}{Movimentacao}. 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespacemovimento_aeb6b028fe2ad0167ba59b47ceea8a5b5}\label{namespacemovimento_aeb6b028fe2ad0167ba59b47ceea8a5b5}} 
+\index{movimento@{movimento}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!movimento@{movimento}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily ostream\& movimento\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{o,  }\item[{\hyperlink{classmovimento_1_1Movimentacao}{Movimentacao} const}]{m }\end{DoxyParamCaption})}
+
+
+\begin{DoxyCode}
+41     \{
+42         o << \textcolor{stringliteral}{"Descrição: "} << m.m\_discription << \textcolor{stringliteral}{" "} << \textcolor{stringliteral}{"Valor: R$"} << m.m\_value << \textcolor{stringliteral}{" "} << \textcolor{stringliteral}{"Indicação (0
+       para crédito e 1 para débito): "} << m.m\_indication << endl;
+43 
+44         \textcolor{keywordflow}{return} o;
+45     \}
+\end{DoxyCode}
